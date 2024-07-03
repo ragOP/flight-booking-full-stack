@@ -1,0 +1,148 @@
+/* new css for home and inner pages only */
+.fullimg{width:100%; height:auto;}
+.blue{color:#0060d6;}
+.clr{clear:both;}
+/*-- Header --*/
+
+.topRibon{width:100%; height:auto; padding:0px 0 0 0; margin:auto;}
+.tr25off{width:auto; height:auto; padding:9px 3% 0 0; margin:0; float:right; color:#555; font-weight:500; font-size:12px;}
+.trbookdif{width:auto; height:auto; padding:9px 0 0 3%; margin:0; float:right; color:#555; font-weight:500; font-size:12px;}
+.trEmail{width:auto; height:auto; padding:9px 0 0 0; margin:0; float:right; color:#555; font-weight:500; font-size:12px;}
+.trRightBox{width:100%; height:auto; padding:0; margin:0 0 7px 0; float:right; color:#fff; font-weight:300; font-size:12px;}
+.trsmnav{width:20px; height:auto; padding:12px 7px 7px 7px; margin:0; display:block; float:left;text-align:center; color:#fff;}
+.trsmnav:hover{ background:#d70a00; color:#fff;}
+
+header {width: 100%;height: auto;position: fixed;top: 0;left: 0;z-index: 999;}
+header .header{width:100%; height:auto; padding:0px 9%; margin:auto; background:#fff; position:relative; z-index:101;box-shadow:0 2px 2px rgba(0,0,0,0.4);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important; }
+header .rightBox{width:75%;float:right; margin:0; text-align:right;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .logoBox{width:250px;height: auto; padding:0px; margin:14px 0 5px 0; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+
+header.smaller {height: auto; }
+header.smaller .header{width:100%; height:auto; padding:1px 9%; margin:auto; background:#fff; position:absolute; z-index:99999; box-shadow:0 2px 2px rgba(0,0,0,0.1);}
+header.smaller .rightBox{width:75%;float:right; margin:13px 0 5px 0;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .logoBox{width:160px;height: auto; padding:0px; margin:11px 0 5px 0;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .menuBox{ margin:14px 0 0 0;}
+.menuBox{width:auto; height:auto; margin:14px auto 0 auto; padding:0; color:#007db8; font-size:15px; font-weight:400; text-align:left; float:right;}
+.countryBox{width:100px; height:auto; margin:0px 10px 2px 10px; padding:0; color:#007db8; font-size:15px; font-weight:600; text-align:left; float:right;}
+.contactBox{width:auto; height:auto; margin:auto; padding:5px 0 5px 36px; background:url(../images/telephone-call.png) no-repeat center left; color:#007db8; font-size:15px; font-weight:600; text-align:left; float:right;}
+.contactBox span{display:block;width:auto; height:auto; margin:auto; padding:0;color:#999; font-size:11px; font-weight:500; text-align:left;}
+
+.countryBox .countrycode{background:none; border:none;}
+
+.hbanner{width:100%;height:450px;padding:0; margin:75px auto 0px auto;background:url(../images/hero.jpg) no-repeat center left; background-size:100% 100%;position:relative;}
+.hbanner .banner-text{display:none;width:100%;height:auto;padding:0; margin:auto;position:absolute;z-index:1; text-align:center; top:75px;}
+.hbanner .banner-text h1{width:100%;height:auto;padding:0; margin:auto; font-size:50px; color:#fff;text-shadow: 0 0 20px #555;}
+
+.mobdivspan{width:auto;height:auto;padding:0;margin:auto;position:absolute; top:100px;right:280px;}
+.mobdivspan h4{padding: 1em;margin: 0px; background:rgb(254,37,0,0.8);border: 1px solid #fe2500;border-radius: 10px;color: #fff;font-weight: bold;font-size: 19px;text-shadow: 3px 3px 2px rgb(0 30 69 / 70%);letter-spacing: 2px;}
+
+.flight-row{width:100%;height:auto;padding:10px 15px; margin:auto;}
+.flight-row .searchcol-1{width:20%;height:auto;padding:0; margin:auto; float:left;position:relative;}
+.flight-row .searchcol-2{width:8%;height:auto;padding:7px 2% 0 0; margin:auto; float:left;position:relative;}
+.flight-row .searchcol-3{width:20%;height:auto;padding:0; margin:auto; float:left;border-right:solid 1px #e1e1e1;position:relative;}
+.flight-row .searchcol-4{width:20%;height:auto;padding:0 0 0 4%; margin:auto; float:left;position:relative;}
+.flight-row .searchcol-5{width:20%;height:auto;padding:0 0 0 4%; margin:auto; float:left;position:relative;}
+.flight-row .searchcol-6{width:12%;height:auto;padding:0; margin:auto; float:left;}
+.flight-row .sFromTbox{width:100%;height:auto;padding:12px 7px 12px 35px; margin:auto;background: url(../images/take-flight.png) no-repeat center left; background-size:20px; border:none;}
+.flight-row .sToTbox{width:100%;height:auto;padding:12px 7px 12px 35px; margin:auto;background: url(../images/land-flight.png) no-repeat center left; background-size:20px; border:none;}
+.flight-row .sDepartDTbox{width:100%;height:auto;padding:12px 7px 12px 35px; margin:auto;background: url(../images/calander-icon.png) no-repeat center left; background-size:30px !important; border:none;}
+.flight-row .sRerurnDTbox{width:100%;height:auto;padding:12px 7px 12px 35px; margin:auto;background: url(../images/calander-icon.png) no-repeat center left; background-size:30px !important; border:none;}
+.flight-row .sf_button{width:100%;height:auto;padding:4px 7px; margin:auto;background:#ff3600;border-radius:4px;font-size: 15px;font-weight:500;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.flight-row .sf_button:hover{background:#0061bb;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+
+
+/* end css for home and innner pages only */
+.mob-ccountry-contact{display:none;}
+@media (min-width: 1300px) and (max-width: 3000px){
+.fix-header{max-width:1120px; margin:auto;}
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+header .header {width: 100%;height: auto;padding: 1px 7% 1px 5%;}
+header.smaller .header {width: 100%;height: auto;padding: 1px 7% 1px 5%;}
+.fix-header{max-width:1140px; margin:auto;}
+.nav a, .nav a:active, .nav a:hover, .nav a:visited {padding: 0 7px 1px !important;}
+.menuBox {margin: 12px auto 0 auto;}
+}
+@media (min-width: 1030px) and (max-width: 1200px){
+header .header {width: 100%;height: auto;padding: 1px 5% 1px 5%;}
+header.smaller .header {width: 100%;height: auto;padding: 1px 5% 1px 5%;}
+.fix-header{max-width:100%; margin:auto;}
+.nav a, .nav a:active, .nav a:hover, .nav a:visited {padding: 0 7px 1px !important;}
+.menuBox {margin: 12px auto 0 auto;}
+}
+@media (min-width: 1000px) and (max-width: 1030px){
+header .header {width: 100%;height: auto;padding: 1px 1% 1px 1%;}
+header.smaller .header {width: 100%;height: auto;padding: 1px 1% 1px 1%;}
+header .rightBox {width: 80%;}
+header.smaller .rightBox {width: 80%;}
+.fix-header{max-width:100%; margin:auto;}
+}
+@media (min-width: 769px) and (max-width: 900px){
+header .header {width: 100%;height: auto;padding: 1px 0 1px 0;}
+header.smaller .header {width: 100%;height: auto;padding: 1px 0 1px 0;}
+.fix-header{max-width:740px; margin:auto; position:relative;}
+}
+@media (min-width: 580px) and (max-width: 769px){
+header .header {width: 100%;height: auto;padding: 1px 0 1px 0;}
+header.smaller .header {width: 100%;height: auto;padding: 1px 0 1px 0;}
+.fix-header{max-width:540px; margin:auto; position:relative;}
+}
+
+@media (min-width: 1000px) and (max-width: 1100px){
+header {width: 100%;height: auto;position: relative;top: 0;left: 0;z-index: 999;}
+header .header{width:100%; height:auto; padding:0 2% 0 2%; margin:auto; background:#fff; position:relative; z-index:101;box-shadow:0 2px 2px rgba(0,0,0,0.4);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important; } 
+header.smaller {height: auto; }
+header.smaller .header{width:100%; height:auto; padding:0 2% 0 2%; margin:auto; background:#fff; position:relative;z-index:99999; box-shadow:0 2px 2px rgba(0,0,0,0.1);}
+header .rightBox {width: 77%;}
+header.smaller .rightBox {width: 77%;}
+
+.menuBox {margin: 13px auto 0 auto;}
+.nav a, .nav a:active, .nav a:hover, .nav a:visited {padding: 0 7px 1px !important;}
+
+.hbanner {margin: 0px auto 0px auto;}
+.flight-row .sf_button {font-size: 13px;}
+
+}
+
+@media (min-width: 220px) and (max-width: 900px){
+.topRibon{display:none !important;}
+
+header {width: 100%;height: auto;position: relative;top: 0;left: 0;z-index: 999;}
+header .header{width:100%; height:auto; padding:0 0 0 0; margin:auto; background:#fff; position:relative; z-index:101;box-shadow:0 2px 2px rgba(0,0,0,0.4);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important; } 
+header .rightBox{width:100%;float:right; margin:5px 0 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .logoBox{width:160px;height: auto; padding:0px; margin:7px 0 4px 25px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .topRibon{display:none !important;}
+
+header.smaller {height: auto; }
+header.smaller .header{width:100%; height:auto; padding:0; margin:auto; background:#fff; position:relative;z-index:99999; box-shadow:0 2px 2px rgba(0,0,0,0.1);}
+header.smaller .rightBox{width:100%;float:right; margin:5px 0 0px 0;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .logoBox{width:160px;height: auto; padding:0px; margin:7px 0 4px 25px;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .topRibon{display:none !important;}
+
+.menuBox{width:100%; height:auto; margin:0 auto; padding:0; color:#007db8; font-size:15px; font-weight:400; text-align:left; float:right;}
+.countryBox{display:none;}
+.contactBox{display:none;}
+
+.desktop_ticket{display:none;}
+.form_sec {background: #fff;}
+select.form-control {background: #fff !important;}
+.mob-ccountry-contact {display: none;width: 100%;height: auto;border-top: solid 1px #e1e1e1;padding: 10px 5% 5px 5%;text-align: center;}
+
+.countryBox1{width:100px; height:auto; margin:0px 10px 6px 10px; padding:0; color:#007db8; font-size:15px; font-weight:600; text-align:left; float:left;}
+.contactBox1{width:auto; height:auto; margin:auto; padding:5px 0 5px 36px; background:url(../images/telephone-call.png) no-repeat center left; color:#007db8; font-size:15px; font-weight:600; text-align:left; float:right;}
+.contactBox1 span{display:block;width:auto; height:auto; margin:auto; padding:0;color:#999; font-size:11px; font-weight:500; text-align:left;}
+.countryBox1 .countrycode{background:none; border:none;}
+
+.hbanner {height: auto;padding:10px 0 1px 0;margin:auto;}
+.hbanner .banner-text {width: 100%;height: auto;padding: 0; margin: auto;position: relative;top: 30px;}
+.hbanner .banner-text h1 {font-size: 30px;}
+.mobile_ticket {display: block;margin:70px 0 50px 0;}
+
+.row.slider-box {margin-left: 95px;margin-right: 0px;}
+.slider-box button.slick-prev.slick-arrow {left: 6% !important;}
+.form-inline label {display: inline-block;}
+.form-inline .form-control {width: 100%;vertical-align: middle;}
+.form-control::placeholder {color: #bec6cc;}
+.mobdivspan{display:none;}
+
+}
